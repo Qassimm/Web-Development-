@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+
+.website{
+    display: flex;
+}
+
+.login-panel{
+    height: 909px;
+    width: 860px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-logo{
+    background-image: url(logo.png);
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    border: 2px solid #28b498;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+
+.login-logo p{
+    font-size: 20px;
+    padding-left: 3rem;
+    padding-top: 10px;
+}
+
+
+.login-content{
+    height: 600px;
+    width: 500px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+
+.login-content h1{
+    padding-bottom: 16px;
+    color: black;
+}
+
+
+.login-content p{
+    color: #555a59;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+
+.login-icons{
+    width: 200px;
+    height: 52px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
+}
+
+
+.linkedin{
+    background-image: url("linkedin.png");
+    height: 51px;
+    width: 51px;
+}
+.google{
+    background-image: url("google.png");
+    height: 51px;
+    width: 51px;
+}
+.facebook{
+    background-image: url("facebook.png");
+    height: 51px;
+    width: 51px;
+}
+
+
+
+.login-content a{
+    font-size: 12px;
+    color: #5e5e5e;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+.email-search{
+    width: 500px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 28px;
+    border:0;
+    background-color: #EEF5F3;
+    padding-left: 16px;
+    padding-left: 16px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+.password-bar{
+    width: 430px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 28px;
+    border:0;
+    background-color: #EEF5F3;
+    padding-left: 16px;
+    padding-left: 16px;
+    margin-bottom: 15px;
+}
+
+
+
+ button{
+    width: 240px;
+    height: 55px;
+    border-radius: 28px ;
+    border: 0;
+    background-color: #28b498;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+/**second panel**/
+
+
+
+.second-panel{
+    height: 909px;
+    width: 430px;
+    background-color: #28b498;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.second-panel h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-panel p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+.second-panel button{width: 240px;
+    height: 55px;
+    border-radius: 28px ;
+    border: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 300;
+ text-align: center;
+
+}
+
+
+
+
+
